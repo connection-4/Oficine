@@ -1,11 +1,11 @@
- import tailwindcss from '@tailwindcss/vite';
+import tailwindcss from '@tailwindcss/vite';
 import react from '@vitejs/plugin-react';
 import path from 'path';
-import {defineConfig} from 'vite';
+import { defineConfig } from 'vite';
 
 export default defineConfig(() => {
   return {
-    base: '/Oficine/', // Alterado para o nome exato do repositório
+    base: '/Oficine/', // Configurado corretamente para o repositório no GitHub Pages
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
@@ -18,4 +18,3 @@ export default defineConfig(() => {
     },
   };
 });
- 
