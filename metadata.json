@@ -1,0 +1,7 @@
+{
+  "name": "FERS Auto Repair & Towing",
+  "description": "Modern, responsive website for FERS Auto Repair & Towing in Lyons, IL featuring services, live hours, Google reviews, photo gallery, and online appointment booking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
